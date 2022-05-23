@@ -1,12 +1,17 @@
+import * as React from 'react'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { Home } from './views/Home'
+import { Contact } from './views/Contact'
 import './App.css'
 
 function App() {
 	return (
-		<div className="App">
-			<header className="App-header">
-				<h1>My React App</h1>
-			</header>
-		</div>
+		<BrowserRouter>
+			<Routes>
+				<Route path="/" element={<Home />} />
+				<Route path="/contact" element={<Contact />} />
+			</Routes>
+		</BrowserRouter>
 	)
 }
 

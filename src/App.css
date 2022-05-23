@@ -1,4 +1,16 @@
-.App {
+.nav {
+	/* text-align: center; */
+}
+.nav li {
+	display: inline;
+	text-decoration: none;
+	padding-right: 10px;
+}
+.footer {
+	text-align: center;
+}
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +47,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
