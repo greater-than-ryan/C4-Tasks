@@ -1,17 +1,20 @@
 import * as React from 'react'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 import { Home } from './views/Home'
 import { Contact } from './views/Contact'
 import './App.css'
 
 function App() {
 	return (
-		<BrowserRouter>
+		<HashRouter>
 			<Routes>
-				<Route path="/" element={<Home />} />
+				<Route
+					path="/"
+					element={<Home footerText="Ryan Nash &copy;" />}
+				/>
 				<Route path="/contact" element={<Contact />} />
 			</Routes>
-		</BrowserRouter>
+		</HashRouter>
 	)
 }
 

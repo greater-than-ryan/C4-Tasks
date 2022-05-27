@@ -1,3 +1,13 @@
+# Ryan's README
+
+## Build
+* Build using npm build:tizen or npm build:lg 
+    * These scripts copy the contents of the build log to the respective IDE workspace folders on *my* PC
+
+
+## Notes 
+* It is likely that Tizen needs to be compiled in ES6 code to function correctly [Tizen Docs](https://developer.tizen.org/community/tip-tech/using-ecmascript-6-tizen-web-projects.)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
