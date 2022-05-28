@@ -82,6 +82,11 @@ a:hover {
 	/* justify-content: center; */
 }
 
+.row-center {
+	justify-content: center;
+	width: 100%;
+}
+
 .row-left {
 	justify-content: left;
 	width: 100%;

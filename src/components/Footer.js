@@ -4,7 +4,7 @@ export const Footer = (props) => {
 	return (
 		<div className="margin-top-auto">
 			<div className="footer">
-				<div className="row dark-bg">
+				<div className="row row-center dark-bg">
 					<div className="column">
 						<ul>
 							<li className="nav-item">Parental Control</li>
@@ -14,7 +14,7 @@ export const Footer = (props) => {
 						</ul>
 					</div>
 				</div>
-				<div className="row">
+				<div className="row row-center">
 					<div className="column footer-logo">
 						<img
 							src={
@@ -25,7 +25,7 @@ export const Footer = (props) => {
 						></img>
 					</div>
 				</div>
-				<div className="row">
+				<div className="row row-center">
 					<div className="column-center">
 						<p>&copy; Channel Four Television Corporation 2022</p>
 					</div>

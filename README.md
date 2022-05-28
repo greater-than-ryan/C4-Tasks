@@ -2,6 +2,13 @@
 
 ## TODO
 
+## Teams Tasks
+
+-   Finish brand page
+-   Create single episode page with player
+-   Pagination instead of grid for overflow array map items
+-   Better login
+-
 -   Navbar left and right padding is slightly different
 -   Right align navbar-right
 -   Hamburger menu for navbar responsive
@@ -11,6 +18,8 @@
 -   TV navigation
 -   Shows with multiple lines in the title cause the grid to not be in line
 -   Black triangle like C4 site on banner
+-   Links set up for all brand pages but can only be accessed by clicking, not typing in URL bar
+-   Footer misaligned when in mobile view
 
 ## Build
 

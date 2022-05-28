@@ -9,7 +9,7 @@ export const ShowCategory = (props) => {
 			</div>
 			<div className="grid-container">
 				{props.showArray.map((show, i) => (
-					<div className="column">
+					<div className="column" key={i}>
 						<div className="card">
 							<img src={show.image.href} alt={show.summary} />
 							<div className="caption">
@@ -24,13 +24,21 @@ export const ShowCategory = (props) => {
 									></img>
 								</div>
 								<div className="row row-left">
-									<Link className="caption-text" to="/brand">
+									<Link
+										className="caption-text"
+										to={{
+											pathname: `/brand/${show.title}`,
+										}}
+										state={{ show: show }}
+									>
 										{show.title}
 									</Link>
 								</div>
+								<div className="caption-text">
+									{show.summary}
+								</div>
 							</div>
 						</div>
-						<div className="caption">{show.summary}</div>
 					</div>
 				))}
 			</div>

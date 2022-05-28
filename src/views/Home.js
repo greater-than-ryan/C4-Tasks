@@ -11,7 +11,7 @@ export const Home = (props) => {
 			<div className="container">
 				<NavBar />
 				<BannerAd />
-				<ShowsComponent />
+				<ShowsComponent data={props.data} />
 				<Footer />
 			</div>
 		</div>
