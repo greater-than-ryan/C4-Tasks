@@ -11,7 +11,7 @@ export const NavBar = () => {
 							'https://all4nav.channel4.com/globalnav/static/2.0.143/images/all4_logo_negative.svg'
 						}
 						alt="Channel 4 Logo"
-						width="35em"
+						width="28em"
 					></img>
 				</li>
 				<li className="nav-item">
@@ -21,10 +21,10 @@ export const NavBar = () => {
 				<li className="nav-item">Live TV</li>
 				<li className="nav-item">Categories</li>
 				<li className="nav-item">Box Sets</li>
-				<ul className="navbar navbar-right">
-					<li className="nav-item">Parental Controls: Off</li>
-					<li className="nav-item">Search</li>
-				</ul>
+			</ul>
+			<ul className="navbar-right">
+				<li className="nav-item">Parental Controls: Off</li>
+				<li className="nav-item">Search</li>
 			</ul>
 		</div>
 	)

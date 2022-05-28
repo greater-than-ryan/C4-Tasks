@@ -1,12 +1,25 @@
 # Ryan's README
 
+## TODO
+
+-   Navbar left and right padding is slightly different
+-   Right align navbar-right
+-   Hamburger menu for navbar responsive
+-   Relative urls, when a show's name is clicked on you are taken to that show's episode page
+-   Image rollover for shows
+-   DONE for title, can the rollover increase the height to show the summary? Look at channel four for an example
+-   TV navigation
+-   Shows with multiple lines in the title cause the grid to not be in line
+-   Black triangle like C4 site on banner
+
 ## Build
-* Build using npm build:tizen or npm build:lg 
-    * These scripts copy the contents of the build log to the respective IDE workspace folders on *my* PC
 
+-   Build using npm build:tizen or npm build:lg
+    -   These scripts copy the contents of the build log to the respective IDE workspace folders on _my_ PC
 
-## Notes 
-* It is likely that Tizen needs to be compiled in ES6 code to function correctly [Tizen Docs](https://developer.tizen.org/community/tip-tech/using-ecmascript-6-tizen-web-projects.)
+## Notes
+
+-   It is likely that Tizen needs to be compiled in ES6 code to function correctly [Tizen Docs](https://developer.tizen.org/community/tip-tech/using-ecmascript-6-tizen-web-projects.)
 
 # Getting Started with Create React App
 

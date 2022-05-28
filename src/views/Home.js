@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { CatFact } from '../components/CatFact'
+import { BannerAd } from '../components/BannerAd'
 import { Footer } from '../components/Footer'
 import { NavBar } from '../components/NavBar'
 import ShowsComponent from '../components/Shows'
@@ -10,6 +10,7 @@ export const Home = (props) => {
 		<div className="App">
 			<div className="container">
 				<NavBar />
+				<BannerAd />
 				<ShowsComponent />
 				<Footer />
 			</div>
