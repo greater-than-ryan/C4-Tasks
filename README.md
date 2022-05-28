@@ -1,5 +1,7 @@
 # Ryan's README
 
+## This is a clone of the Channel 4 website built as we transition to taking over their codebase for the new All4 Smart TV/Console Apps
+
 ## TODO
 
 ## Teams Tasks
